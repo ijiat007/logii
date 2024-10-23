@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "PB";
+  font-weight: 700;
+  font-display: swap;
+  src:
+    local("Pretendard Bold"),
+    url("#{$fontPath}Pretendard-Bold.woff2") format("woff2"),
+    url("#{$fontPath}Pretendard-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PR";
+  font-weight: 400;
+  font-display: swap;
+  src:
+    local("Pretendard Regular"),
+    url("#{$fontPath}Pretendard-Regular.woff2") format("woff2"),
+    url("#{$fontPath}Pretendard-Regular.woff") format("woff");
+}
