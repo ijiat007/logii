@@ -9,7 +9,7 @@ const map = ref<HTMLElement | null>(null);
 
 onMounted(() => {
   const googleMapsScript = document.createElement("script");
-  // googleMapsScript.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyCKBokoicE7UQ4CrgOt-MyTqL5dKUDK-V8`; // 실제 API 키로 대체
+  googleMapsScript.src = `https://maps.googleapis.com/maps/api/js?key=`; // 실제 API 키로 대체
   googleMapsScript.async = true;
   googleMapsScript.onload = () => {
     const mapOptions = {
